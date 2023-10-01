@@ -1,70 +1,12 @@
-# Chrome Extension TypeScript Starter
 
-![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg)
+# 機能
+- タブの状態を保存するChrome拡張
+  - ブラウザが不意に落ち、標準機能で復元できなくなった時用
+  - タブ数が規定数以上の時に、バックアップを更新する
+    - 規定数は内部でベタ打ち
+  - 復旧の機能は無い。URLを表示させて、各個開く。
 
-Chrome Extension, TypeScript and Visual Studio Code
+# 開発環境
 
-## Prerequisites
+- https://github.com/chibat/chrome-extension-typescript-starter を clone したので、そちらを参照
 
-* [node + npm](https://nodejs.org/) (Current Version)
-
-## Option
-
-* [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
-
-* TypeScript
-* Webpack
-* React
-* Jest
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
-
-## Project Structure
-
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
-
-## Setup
-
-```
-npm install
-```
-
-## Import as Visual Studio Code project
-
-...
-
-## Build
-
-```
-npm run build
-```
-
-## Build in watch mode
-
-### terminal
-
-```
-npm run watch
-```
-
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
-
-## Load extension to chrome
-
-Load `dist` directory
-
-## Test
-`npx jest` or `npm run test`
